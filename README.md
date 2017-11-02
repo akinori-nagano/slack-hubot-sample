@@ -36,17 +36,15 @@ export HUBOT_SLACK_TOKEN=xoxb-XXXXXXXXX    # ボットのアクセストーク�
 
 ## Run slack adapter
 
-ボットを何らかのチャンネルに参加させる、もしくはチャンネルを作成しその時ボットを参加させる
+1. ボットを何らかのチャンネルに参加させる、もしくはチャンネルを作成しその時ボットを参加させる
 
-cat samplebot/scripts/hello.js  
-----  
+2. cat samplebot/scripts/hello.js  
 // Description:  
 //   HelloWorld  
-  
 module.exports = function(robot) {  
         robot.send({room: "#channel-name"}, "Hello! World!");  
 };  
-----  
 
+3. コマンド実行  
 ./bin/hubot --adapter slack
 
