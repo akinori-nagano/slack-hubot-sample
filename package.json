@@ -1,0 +1,12 @@
+{
+	"name": "sample",
+	"version": "0.0.0",
+	"description": "",
+	"devDependencies": {
+		"coffee-script": "~1.12.7",
+		"yo": "~2.0.0",
+		"hubot": "~2.19.0",
+	       	"generator-hubot": "~0.4.0",
+		"hubot-slack": "~4.4.0"
+	}
+}
